@@ -11,7 +11,7 @@
             <?php
             $destinations = [
                 ['name'=>'United Kingdom','flag'=>'🇬🇧','desc'=>'World-class education with post-study work opportunities and rich cultural heritage.','img'=>'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80'],
-                ['name'=>'United States','flag'=>'🇺🇸','desc'=>'Home to the world\'s top-ranked universities with cutting-edge research opportunities.','img'=>'https://images.unsplash.com/photo-1485738422979-f5c462d49f04?w=600&q=80'],
+                ['name'=>'United States','flag'=>'🇺🇸','desc'=>'Home to the world\'s top-ranked universities with cutting-edge research opportunities.','img'=>'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80'],
                 ['name'=>'Canada','flag'=>'🇨🇦','desc'=>'Affordable tuition, welcoming multicultural society, and excellent PR pathways.','img'=>'https://images.unsplash.com/photo-1517935706615-2717063c2225?w=600&q=80'],
                 ['name'=>'Australia','flag'=>'🇦🇺','desc'=>'1,100+ institutions with world-class education and outstanding lifestyle experience.','img'=>'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600&q=80'],
                 ['name'=>'New Zealand','flag'=>'🇳🇿','desc'=>'Safe, welcoming environment with globally recognized qualifications.','img'=>'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&q=80'],
