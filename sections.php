@@ -457,7 +457,7 @@
                 </div>
                 <p>Denova Education is a leading study abroad agency in Bangladesh, guiding students toward a better life abroad through expert higher education consultancy since 2006.</p>
                 <div class="footer-socials">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.facebook.com/DenovaEducation"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>

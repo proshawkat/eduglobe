@@ -18,7 +18,7 @@
                 <a href="mailto:info@eduglobal.com"><i class="fas fa-envelope"></i> info@eduglobal.com</a>
             </div>
             <div class="topbar-right">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.facebook.com/DenovaEducation"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
