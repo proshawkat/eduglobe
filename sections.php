@@ -410,14 +410,7 @@
                     <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
                     <div>
                         <h4>Dhanmondi Office</h4>
-                        <p>Level 5, Road 27, Dhanmondi, Dhaka 1209</p>
-                    </div>
-                </div>
-                <div class="info-item">
-                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
-                    <div>
-                        <h4>Banani Office</h4>
-                        <p>House 50, Block C, Road 11, Banani, Dhaka 1213</p>
+                        <p>21/4/A, Zigatola, Dhanmondi, Dhaka, Bangladesh, 1209</p>
                     </div>
                 </div>
                 <div class="info-item">
