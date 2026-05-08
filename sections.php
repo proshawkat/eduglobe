@@ -11,13 +11,12 @@
             <?php
             $destinations = [
                 ['name'=>'United Kingdom','flag'=>'🇬🇧','desc'=>'World-class education with post-study work opportunities and rich cultural heritage.','img'=>'https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=600&q=80'],
-                ['name'=>'United States','flag'=>'🇺🇸','desc'=>'Home to the world\'s top-ranked universities with cutting-edge research opportunities.','img'=>'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=600&q=80'],
-                ['name'=>'Canada','flag'=>'🇨🇦','desc'=>'Affordable tuition, welcoming multicultural society, and excellent PR pathways.','img'=>'https://images.unsplash.com/photo-1517935706615-2717063c2225?w=600&q=80'],
                 ['name'=>'Australia','flag'=>'🇦🇺','desc'=>'1,100+ institutions with world-class education and outstanding lifestyle experience.','img'=>'https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600&q=80'],
-                ['name'=>'New Zealand','flag'=>'🇳🇿','desc'=>'Safe, welcoming environment with globally recognized qualifications.','img'=>'https://images.unsplash.com/photo-1507699622108-4be3abd695ad?w=600&q=80'],
                 ['name'=>'Malaysia','flag'=>'🇲🇾','desc'=>'Budget-friendly education with multicultural campus life in Southeast Asia.','img'=>'https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600&q=80'],
-                ['name'=>'Germany','flag'=>'🇩🇪','desc'=>'Tuition-free public universities with strong engineering and research programs.','img'=>'https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=600&q=80'],
-                ['name'=>'Denmark','flag'=>'🇩🇰','desc'=>'Innovation-driven education with inclusive values and scenic charm.','img'=>'https://images.unsplash.com/photo-1513622470522-26c3c8a854bc?w=600&q=80'],
+                ['name'=>'South Korea','flag'=>'🇰🇷','desc'=>'Innovative technology, rich culture, and high-quality education in East Asia.','img'=>'https://images.unsplash.com/photo-1517154421773-0529f29ea451?w=600&q=80'],
+                ['name'=>'Cyprus','flag'=>'🇨🇾','desc'=>'Mediterranean charm with affordable high-quality European degree programs.','img'=>'https://images.unsplash.com/photo-1518459031867-a89b944bffe4?w=600&q=80'],
+                ['name'=>'Malta','flag'=>'🇲🇹','desc'=>'English-speaking island nation with great weather and affordable tuition.','img'=>'https://images.unsplash.com/photo-1527838832700-5059252407fa?w=600&q=80'],
+                ['name'=>'Russia','flag'=>'🇷🇺','desc'=>'Deep academic traditions and cutting-edge research in science and arts.','img'=>'https://images.unsplash.com/photo-1513326738677-b964603b136d?w=600&q=80'],
             ];
             foreach($destinations as $d): ?>
             <div class="dest-card">
@@ -213,7 +212,7 @@
                 </div>
                 <div class="event-body">
                     <h3>Multi-Destination Education Expo – Dhaka</h3>
-                    <p>Meet representatives from top UK, Canada & Australia universities. Free entry!</p>
+                    <p>Meet representatives from top UK, Australia & Malaysia universities. Free entry!</p>
                     <a href="#contact" class="btn btn-primary">Register Now</a>
                 </div>
             </div>
@@ -235,7 +234,7 @@
                 </div>
                 <div class="event-body">
                     <h3>Scholarship Guidance Seminar</h3>
-                    <p>Learn how to secure scholarships for UK, Canada, Australia & Europe.</p>
+                    <p>Learn how to secure scholarships for UK, Australia, Malaysia & South Korea.</p>
                     <a href="#contact" class="btn btn-primary">Register Now</a>
                 </div>
             </div>
@@ -272,9 +271,9 @@
                     <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80" alt="Blog">
                 </div>
                 <div class="blog-body">
-                    <span class="blog-tag">Canada</span>
-                    <h3>Top 10 Universities in Canada 2026 – QS Rankings & Student Guide</h3>
-                    <p>Discover the best Canadian universities, rankings, programs, tuition, and admission tips...</p>
+                    <span class="blog-tag">Australia</span>
+                    <h3>Top 10 Universities in Australia 2026 – Rankings & Student Guide</h3>
+                    <p>Discover the best Australian universities, rankings, programs, tuition, and admission tips...</p>
                     <div class="blog-meta">
                         <span><i class="far fa-calendar"></i> Apr 29, 2026</span>
                         <span><i class="far fa-clock"></i> 7 min read</span>
@@ -313,7 +312,7 @@
             $faqs = [
                 ['q'=>'Am I eligible to study abroad?','a'=>'If you want to study abroad, you must meet academic requirements, language requirements (IELTS/TOEFL), and financial requirements. Our expert counsellors will assess your profile for free and guide you on the best options.'],
                 ['q'=>'Can I apply without IELTS?','a'=>'Some universities accept alternative English tests or offer conditional admissions. However, we recommend taking IELTS as it strengthens your visa application. Our team can guide you on IELTS-free options.'],
-                ['q'=>'How much does it cost to study abroad?','a'=>'Costs vary by country. UK tuition starts from £10,000/year, Canada from CAD 15,000/year, Australia from AUD 20,000/year. Many universities offer scholarships. Our counsellors will help you find affordable options.'],
+                ['q'=>'How much does it cost to study abroad?','a'=>'Costs vary by country. UK tuition starts from £10,000/year, Australia from AUD 20,000/year, Malaysia from USD 4,000/year. Many universities offer scholarships. Our counsellors will help you find affordable options.'],
                 ['q'=>'What is the visa success rate?','a'=>'Our visa success rate is over 96%. We provide thorough documentation support, mock interviews, and ensure your application meets all requirements for maximum chances of approval.'],
                 ['q'=>'Do you charge for consultation?','a'=>'No! Initial consultation and eligibility assessment are completely FREE. We believe every student deserves access to quality guidance without financial barriers.'],
                 ['q'=>'How long does the admission process take?','a'=>'Typically 2-8 weeks depending on the university and country. Some universities offer spot assessments at our events where you can get offers on the same day.'],
@@ -373,12 +372,12 @@
                             <select>
                                 <option>Select Country</option>
                                 <option>UK</option>
-                                <option>USA</option>
-                                <option>Canada</option>
                                 <option>Australia</option>
-                                <option>New Zealand</option>
                                 <option>Malaysia</option>
-                                <option>Europe</option>
+                                <option>South Korea</option>
+                                <option>Cyprus</option>
+                                <option>Malta</option>
+                                <option>Russia</option>
                             </select>
                         </div>
                         <div class="form-group">
@@ -453,10 +452,10 @@
         <div class="footer-grid">
             <div class="footer-about">
                 <div class="logo" style="margin-bottom:16px">
-                    <div class="logo-icon">E</div>
-                    <div class="logo-text">Edu<span>Global</span></div>
+                    <img src="images/logo.jpg" alt="Denova Education" class="logo-img">
+                    <div class="logo-text">Denova<span>Education</span></div>
                 </div>
-                <p>EduGlobal Consultancy is a leading study abroad agency in Bangladesh, guiding students toward a better life abroad through expert higher education consultancy since 2006.</p>
+                <p>Denova Education is a leading study abroad agency in Bangladesh, guiding students toward a better life abroad through expert higher education consultancy since 2006.</p>
                 <div class="footer-socials">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                     <a href="#"><i class="fab fa-instagram"></i></a>
@@ -469,12 +468,12 @@
             <div class="footer-links">
                 <h4>Study Destinations</h4>
                 <a href="#">🇬🇧 United Kingdom</a>
-                <a href="#">🇺🇸 United States</a>
-                <a href="#">🇨🇦 Canada</a>
                 <a href="#">🇦🇺 Australia</a>
-                <a href="#">🇳🇿 New Zealand</a>
                 <a href="#">🇲🇾 Malaysia</a>
-                <a href="#">🇩🇪 Germany</a>
+                <a href="#">🇰🇷 South Korea</a>
+                <a href="#">🇨🇾 Cyprus</a>
+                <a href="#">🇲🇹 Malta</a>
+                <a href="#">🇷🇺 Russia</a>
             </div>
             
             <div class="footer-links">
@@ -498,7 +497,7 @@
         </div>
         
         <div class="footer-bottom">
-            <p>&copy; 2026 EduGlobal Consultancy. All Rights Reserved.</p>
+            <p>&copy; 2026 Denova Education. All Rights Reserved.</p>
         </div>
     </div>
 </footer>

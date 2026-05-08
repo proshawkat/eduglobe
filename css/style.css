@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap');
 
 :root {
-    --primary: #0f2557;
-    --primary-light: #1a56db;
-    --accent: #f59e0b;
-    --accent-hover: #d97706;
-    --teal: #06b6d4;
+    --primary: #300066;
+    --primary-light: #4c1d95;
+    --accent: #7b1fa2;
+    --accent-hover: #6a1b9a;
+    --teal: #a855f7;
     --bg: #ffffff;
-    --bg-light: #f8fafc;
-    --bg-dark: #0a1628;
+    --bg-light: #fdf4ff;
+    --bg-dark: #1e003d;
     --text: #1e293b;
     --text-light: #64748b;
     --border: #e2e8f0;
     --radius: 12px;
-    --shadow: 0 4px 24px rgba(0, 0, 0, .08);
-    --shadow-lg: 0 12px 40px rgba(0, 0, 0, .12);
+    --shadow: 0 4px 24px rgba(48, 0, 102, .08);
+    --shadow-lg: 0 12px 40px rgba(48, 0, 102, .12);
     --transition: all .3s ease
 }
 
@@ -114,7 +114,7 @@ img {
 .section-tag {
     display: inline-block;
     padding: 6px 16px;
-    background: rgba(26, 86, 219, .08);
+    background: rgba(123, 31, 162, .08);
     color: var(--primary-light);
     border-radius: 50px;
     font-size: .8rem;
@@ -237,17 +237,12 @@ section.hero {
     padding: 16px 0
 }
 
-.logo-icon {
-    width: 42px;
-    height: 42px;
-    background: var(--accent);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2rem;
-    font-weight: 800;
-    color: #fff
+.logo-img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid rgba(255, 255, 255, .2)
 }
 
 .logo-text {
@@ -575,7 +570,7 @@ section.hero {
 .about-feature .icon {
     width: 36px;
     height: 36px;
-    background: rgba(26, 86, 219, .08);
+    background: rgba(123, 31, 162, .08);
     border-radius: 8px;
     display: flex;
     align-items: center;

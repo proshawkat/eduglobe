@@ -31,8 +31,8 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="#" class="logo">
-                <div class="logo-icon">E</div>
-                <div class="logo-text">Edu<span>Global</span></div>
+                <img src="images/logo.jpg" alt="Denova Education" class="logo-img">
+                <div class="logo-text">Denova<span>Education</span></div>
             </a>
             
             <ul class="nav-links" id="navLinks">
@@ -41,12 +41,12 @@
                     <a href="#destinations">Study Abroad <i class="fas fa-chevron-down" style="font-size:.65rem"></i></a>
                     <div class="dropdown">
                         <a href="#">🇬🇧 Study in UK</a>
-                        <a href="#">🇺🇸 Study in USA</a>
-                        <a href="#">🇨🇦 Study in Canada</a>
                         <a href="#">🇦🇺 Study in Australia</a>
-                        <a href="#">🇳🇿 Study in New Zealand</a>
                         <a href="#">🇲🇾 Study in Malaysia</a>
-                        <a href="#">🇪🇺 Study in Europe</a>
+                        <a href="#">🇰🇷 Study in South Korea</a>
+                        <a href="#">🇨🇾 Study in Cyprus</a>
+                        <a href="#">🇲🇹 Study in Malta</a>
+                        <a href="#">🇷🇺 Study in Russia</a>
                     </div>
                 </li>
                 <li><a href="#services">Services</a></li>
