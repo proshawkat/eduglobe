@@ -1253,7 +1253,7 @@ section.hero {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 450px), 1fr));
     gap: 48px
 }
 
@@ -1266,6 +1266,12 @@ section.hero {
 
 .form-group {
     margin-bottom: 20px
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
 }
 
 .form-group label {
@@ -1665,8 +1671,8 @@ section.hero {
         padding: 30px 20px;
     }
 
-    .form-group div {
-        grid-template-columns: 1fr !important;
+    .form-row {
+        grid-template-columns: 1fr;
     }
 
     /* Stack form columns on mobile */

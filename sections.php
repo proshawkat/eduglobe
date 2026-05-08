@@ -352,7 +352,7 @@
                 <p style="color:var(--text-light);margin-bottom:24px;font-size:.9rem">Fill out the form and our counsellor will contact you within 24 hours.</p>
                 
                 <form>
-                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+                    <div class="form-row">
                         <div class="form-group">
                             <label>Full Name *</label>
                             <input type="text" placeholder="Your full name" required>
@@ -366,7 +366,7 @@
                         <label>Email *</label>
                         <input type="email" placeholder="your@email.com" required>
                     </div>
-                    <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
+                    <div class="form-row">
                         <div class="form-group">
                             <label>Preferred Country</label>
                             <select>
