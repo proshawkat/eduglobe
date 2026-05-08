@@ -424,14 +424,14 @@
                     <div class="info-icon"><i class="fas fa-phone"></i></div>
                     <div>
                         <h4>Phone</h4>
-                        <p>+880 1XXX-XXXXXX</p>
+                        <p>+880 1339-883805</p>
                     </div>
                 </div>
                 <div class="info-item">
                     <div class="info-icon"><i class="fas fa-envelope"></i></div>
                     <div>
                         <h4>Email</h4>
-                        <p>info@eduglobal.com</p>
+                        <p>info@denovaeducation.co.uk</p>
                     </div>
                 </div>
                 <div class="info-item">
@@ -461,7 +461,7 @@
                     <a href="#"><i class="fab fa-instagram"></i></a>
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://wa.me/8801339883805" target="_blank"><i class="fab fa-whatsapp"></i></a>
                 </div>
             </div>
             
@@ -489,9 +489,9 @@
             
             <div class="footer-contact">
                 <h4>Head Office</h4>
-                <div class="item"><span>📍</span><span>Dhanmondi, Road 27, Dhaka 1209, Bangladesh</span></div>
-                <div class="item"><span>📞</span><span>+880 1XXX-XXXXXX</span></div>
-                <div class="item"><span>✉️</span><span>info@eduglobal.com</span></div>
+                <div class="item"><span>📍</span><span>21/4/A, Zigatola, Dhanmondi, Dhaka, Bangladesh, 1209</span></div>
+                <div class="item"><span>📞</span><span>+880 1339-883805</span></div>
+                <div class="item"><span>✉️</span><span>info@denovaeducation.co.uk</span></div>
                 <div class="item"><span>🕐</span><span>Sat-Thu: 10AM - 6:30PM</span></div>
             </div>
         </div>
@@ -503,6 +503,6 @@
 </footer>
 
 <!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/8801XXXXXXXXX?text=Hi! I'd like to know about studying abroad." class="whatsapp-float" target="_blank">
+<a href="https://wa.me/8801339883805?text=Hi! I'd like to know about studying abroad." class="whatsapp-float" target="_blank">
     <i class="fab fa-whatsapp"></i>
 </a>

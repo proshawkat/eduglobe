@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EduGlobal Consultancy | Best Study Abroad Consultants in Bangladesh</title>
+    <title>Denova Education | Best Study Abroad Consultants in Bangladesh</title>
     <meta name="description" content="Plan to study in UK, Canada, Australia, USA or Europe? Get expert admission, visa & scholarship support from EduGlobal Consultancy Bangladesh.">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -14,15 +14,15 @@
     <div class="topbar">
         <div class="container">
             <div class="topbar-left">
-                <a href="tel:+8801XXXXXXXXX"><i class="fas fa-phone"></i> +880 1XXX-XXXXXX</a>
-                <a href="mailto:info@eduglobal.com"><i class="fas fa-envelope"></i> info@eduglobal.com</a>
+                <a href="tel:+8801339883805"><i class="fas fa-phone"></i> +880 1339-883805</a>
+                <a href="mailto:info@denovaeducation.co.uk"><i class="fas fa-envelope"></i>info@denovaeducation.co.uk</a>
             </div>
             <div class="topbar-right">
                 <a href="https://www.facebook.com/DenovaEducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://wa.me/8801339883805" target="_blank"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
     </div>
