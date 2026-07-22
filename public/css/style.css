@@ -1455,6 +1455,30 @@ section.hero {
     transform: scale(1.1)
 }
 
+/* REGISTER FLOAT */
+.register-float {
+    position: fixed;
+    bottom: 96px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.4rem;
+    box-shadow: var(--shadow);
+    z-index: 999;
+    transition: var(--transition);
+}
+
+.register-float:hover {
+    transform: scale(1.1);
+    background: var(--primary-light);
+}
+
 @keyframes pulse-wa {
 
     0%,

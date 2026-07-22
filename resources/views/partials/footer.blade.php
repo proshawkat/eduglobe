@@ -45,6 +45,11 @@
     </div>
 </footer>
 
+{{-- REGISTER FLOAT --}}
+<a href="{{ route('register.page') }}" class="register-float" title="Register Now">
+    <i class="fas fa-user-plus"></i>
+</a>
+
 {{-- WHATSAPP FLOAT --}}
 <a href="{{ $settings['whatsapp'] ?? 'https://wa.me/8801339883805' }}?text=Hi! I'd like to know about studying abroad." class="whatsapp-float" target="_blank">
     <i class="fab fa-whatsapp"></i>
