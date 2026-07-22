@@ -178,7 +178,10 @@
                 $unis = ['University of Oxford','University of Melbourne','University of Toronto','Harvard University','University of Auckland','MIT','Cambridge','McGill University','University of Sydney','Monash University','UCL London','York University','La Trobe University','University of Alberta','University of Windsor','CQU Australia','Griffith University','University of Hull'];
             @endphp
             @foreach(array_merge($unis, $unis) as $u)
-            <div class="uni-logo">{{ $u }}</div>
+            <div class="uni-logo" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                <img src="https://ui-avatars.com/api/?name={{ urlencode($u) }}&background=random&color=fff&size=40" alt="{{ $u }} Logo" style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;">
+                <span>{{ $u }}</span>
+            </div>
             @endforeach
         </div>
     </div>
