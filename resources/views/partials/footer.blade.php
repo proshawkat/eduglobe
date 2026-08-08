@@ -32,9 +32,15 @@
                 <a href="#registernow">Contact Us</a>
             </div>
             <div class="footer-contact">
-                <h4>Head Office</h4>
+                <h4>Dhaka Office</h4>
                 <div class="item"><span>📍</span><span>{{ $settings['address'] ?? '21/4/A, Zigatola, Dhanmondi, Dhaka, Bangladesh, 1209' }}</span></div>
                 <div class="item"><span>📞</span><span>{{ $settings['phone'] ?? '+880 1339-883805' }}</span></div>
+                
+                <h4 style="margin-top:15px">UK Office</h4>
+                <div class="item"><span>📍</span><span>{{ $settings['uk_address'] ?? '443 Katherine Road, E7 8LS, United Kingdom' }}</span></div>
+                <div class="item"><span>📞</span><span>{{ $settings['uk_phone'] ?? '+447300526306' }}</span></div>
+                
+                <h4 style="margin-top:15px">General Info</h4>
                 <div class="item"><span>✉️</span><span>{{ $settings['email'] ?? 'info@denovaeducation.com' }}</span></div>
                 <div class="item"><span>🕐</span><span>{{ $settings['hours'] ?? 'Sat-Thu: 10AM - 6:30PM' }}</span></div>
             </div>
@@ -47,7 +53,10 @@
 
 {{-- REGISTER FLOAT --}}
 <a href="{{ route('register.page') }}" class="register-float" title="Register Now">
-    <i class="fas fa-user-plus"></i>
+    <div class="btn-content">
+        <span class="btn-text-main">REGISTER</span>
+        <span class="btn-text-sub">NOW!</span>
+    </div>
 </a>
 
 {{-- WHATSAPP FLOAT --}}

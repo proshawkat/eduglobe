@@ -24,7 +24,7 @@
             <h1>Your Dream of <span>Studying Abroad</span> Starts Here</h1>
             <p>Expert guidance from application to arrival. We've helped thousands of students secure admissions at top universities worldwide.</p>
             <div class="hero-btns">
-                    <a href="{{ route('register.page') }}" class="btn btn-primary"><i class="fas fa-calendar-check"></i> Book FREE Consultation</a>
+                    <a href="{{ route('register.page') }}" class="btn btn-primary"><i class="fas fa-calendar-check"></i> <span class="btn-text-full">Book </span>FREE Consultation</a>
                     <a href="#destinations" class="btn btn-outline"><i class="fas fa-globe"></i> Explore Destinations</a>
             </div>
         </div>
@@ -39,23 +39,23 @@
     <div class="container">
         <div class="stats-grid">
             <div class="stat-item">
-                <div class="stat-number" data-target="15000" data-suffix="+">0</div>
+                <div class="stat-number" data-target="{{ $settings['stat_students_target'] ?? '15000' }}" data-suffix="{{ $settings['stat_students_suffix'] ?? '+' }}">0</div>
                 <div class="stat-label">Students Placed</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" data-target="500" data-suffix="+">0</div>
+                <div class="stat-number" data-target="{{ $settings['stat_universities_target'] ?? '500' }}" data-suffix="{{ $settings['stat_universities_suffix'] ?? '+' }}">0</div>
                 <div class="stat-label">Partner Universities</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" data-target="96.5" data-suffix="%">0</div>
+                <div class="stat-number" data-target="{{ $settings['stat_visa_target'] ?? '96.5' }}" data-suffix="{{ $settings['stat_visa_suffix'] ?? '%' }}">0</div>
                 <div class="stat-label">Visa Success Rate</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" data-target="18" data-suffix="+">0</div>
+                <div class="stat-number" data-target="{{ $settings['stat_experience_target'] ?? '18' }}" data-suffix="{{ $settings['stat_experience_suffix'] ?? '+' }}">0</div>
                 <div class="stat-label">Years Experience</div>
             </div>
             <div class="stat-item">
-                <div class="stat-number" data-target="11" data-suffix="">0</div>
+                <div class="stat-number" data-target="{{ $settings['stat_countries_target'] ?? '11' }}" data-suffix="{{ $settings['stat_countries_suffix'] ?? '' }}">0</div>
                 <div class="stat-label">Countries</div>
             </div>
         </div>
@@ -365,11 +365,20 @@
                 <p>Visit us at any of our offices or reach out online. We're here to help you every step of the way.</p>
                 <div class="info-item">
                     <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
-                    <div><h4>Dhanmondi Office</h4><p>{{ $settings['address'] ?? '21/4/A, Zigatola, Dhanmondi, Dhaka' }}</p></div>
+                    <div><h4>Dhaka Office</h4><p>{{ $settings['address'] ?? '21/4/A, Zigatola, Dhanmondi, Dhaka' }}</p></div>
                 </div>
                 <div class="info-item">
                     <div class="info-icon"><i class="fas fa-phone"></i></div>
-                    <div><h4>Phone</h4><p>{{ $settings['phone'] ?? '+880 1339-883805' }}</p></div>
+                    <div><h4>Dhaka Phone</h4><p>{{ $settings['phone'] ?? '+880 1339-883805' }}</p></div>
+                </div>
+                
+                <div class="info-item" style="margin-top:20px;">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div><h4>UK Office</h4><p>{{ $settings['uk_address'] ?? '443 Katherine Road, E7 8LS, United Kingdom' }}</p></div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-phone"></i></div>
+                    <div><h4>UK Phone</h4><p>{{ $settings['uk_phone'] ?? '+447300526306' }}</p></div>
                 </div>
                 <div class="info-item">
                     <div class="info-icon"><i class="fas fa-envelope"></i></div>
