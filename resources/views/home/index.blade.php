@@ -174,15 +174,20 @@
     </div>
     <div class="uni-track">
         <div class="uni-slider">
-            @php
-                $unis = ['University of Oxford','University of Melbourne','University of Toronto','Harvard University','University of Auckland','MIT','Cambridge','McGill University','University of Sydney','Monash University','UCL London','York University','La Trobe University','University of Alberta','University of Windsor','CQU Australia','Griffith University','University of Hull'];
-            @endphp
-            @foreach(array_merge($unis, $unis) as $u)
-            <div class="uni-logo" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
-                <img src="https://ui-avatars.com/api/?name={{ urlencode($u) }}&background=random&color=fff&size=40" alt="{{ $u }} Logo" style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;">
-                <span>{{ $u }}</span>
-            </div>
-            @endforeach
+            @if($universities->isNotEmpty())
+                @php $uniList = $universities->all(); @endphp
+                @foreach(array_merge($uniList, $uniList) as $uni)
+                <div class="uni-logo" style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+                    @php
+                        $logoSrc = $uni->logo_url ?: 'https://ui-avatars.com/api/?name='.urlencode($uni->name).'&background=random&color=fff&size=40';
+                    @endphp
+                    <img src="{{ $logoSrc }}" alt="{{ $uni->name }} Logo" style="border-radius: 50%; width: 40px; height: 40px; object-fit: cover;">
+                    <span>{{ $uni->name }}</span>
+                </div>
+                @endforeach
+            @else
+                <div style="padding: 20px; color: #94a3b8; font-size: .9rem;">No partner universities added yet.</div>
+            @endif
         </div>
     </div>
 </section>

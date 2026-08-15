@@ -13,6 +13,7 @@ use App\Http\Controllers\Admin\BlogController;
 use App\Http\Controllers\Admin\FaqController;
 use App\Http\Controllers\Admin\RegistrationController as AdminRegistrationController;
 use App\Http\Controllers\Admin\SettingController;
+use App\Http\Controllers\Admin\UniversityController;
 
 // ─── Frontend Routes ─────────────────────────────────────────────────
 Route::get('/', [HomeController::class, 'index'])->name('home');
@@ -39,6 +40,7 @@ Route::prefix('admin')->name('admin.')->group(function () {
         Route::resource('events',       EventController::class)->except(['show']);
         Route::resource('blog',         BlogController::class)->except(['show']);
         Route::resource('faqs',         FaqController::class)->except(['show']);
+        Route::resource('universities',  UniversityController::class)->except(['show']);
 
         // Registrations
         Route::get('registrations',                             [AdminRegistrationController::class, 'index'])->name('registrations.index');

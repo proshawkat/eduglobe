@@ -9,6 +9,7 @@ use App\Models\Event;
 use App\Models\BlogPost;
 use App\Models\Faq;
 use App\Models\Setting;
+use App\Models\University;
 
 class HomeController extends Controller
 {
@@ -16,13 +17,14 @@ class HomeController extends Controller
     public function index()
     {
         return view('home.index', [
-            'destinations' => Destination::active()->whereNotNull('slug')->get(),
-            'services'     => Service::active()->get(),
-            'testimonials' => Testimonial::active()->get(),
-            'events'       => Event::active()->get(),
-            'blogs'        => BlogPost::active()->take(3)->get(),
-            'faqs'         => Faq::active()->get(),
-            'settings'     => Setting::pluck('value', 'key'),
+            'destinations'  => Destination::active()->whereNotNull('slug')->get(),
+            'services'      => Service::active()->get(),
+            'testimonials'  => Testimonial::active()->get(),
+            'events'        => Event::active()->get(),
+            'blogs'         => BlogPost::active()->take(3)->get(),
+            'faqs'          => Faq::active()->get(),
+            'settings'      => Setting::pluck('value', 'key'),
+            'universities'  => University::active()->get(),
         ]);
     }
 

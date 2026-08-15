@@ -240,6 +240,9 @@
         <a href="{{ route('admin.faqs.index') }}" class="nav-item {{ request()->routeIs('admin.faqs*') ? 'active' : '' }}">
             <i class="fas fa-question-circle"></i> FAQs
         </a>
+        <a href="{{ route('admin.universities.index') }}" class="nav-item {{ request()->routeIs('admin.universities*') ? 'active' : '' }}">
+            <i class="fas fa-university"></i> Partner Universities
+        </a>
 
         <div class="nav-section-label">System</div>
         <a href="{{ route('admin.settings.index') }}" class="nav-item {{ request()->routeIs('admin.settings*') ? 'active' : '' }}">
